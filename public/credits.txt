@@ -1,0 +1,25 @@
+Diyarların Fethi — Emre Balcan — Sürüm 1.1.0
+
+Akarsu ve şelale sesleri: kurt, Stream Sounds (OpenGameArt)
+https://opengameart.org/content/stream-sounds
+Lisans: Creative Commons Attribution 3.0
+https://creativecommons.org/licenses/by/3.0/
+Kayıtlar döngü ve ses düzeyi için düzenlendi.
+
+CC0 efekt kaynakları:
+OpenGameArt Battle Sound Effects — https://opengameart.org/content/battle-sound-effects
+OpenGameArt Sword Clash — https://opengameart.org/node/122900
+Kenney Impact Sounds — https://kenney.nl/assets/impact-sounds
+OpenGameArt Water Splash and Sand Footsteps — https://opengameart.org/content/water-splash-and-sand-footsteps
+OpenGameArt 100 CC0 SFX #2 — https://opengameart.org/content/100-cc0-sfx-2
+SFXMint — https://sfxmint.com/
+
+Kullanıcı tarafından sağlanan müzikler:
+KAOS - Epik Savaş Müziği — Kreatif Müzik (birlik savaşı)
+TELİFSİZ SAVAŞ FON MÜZİĞİ 1 — SIRLARIN MERKEZİ (şehir savaşı)
+Cold War — The Mountain (karargâh)
+War Epic — Paul Yudin (sefer haritası)
+Müziklerin baş ve son sessizlikleri temizlendi, oyun içi ses seviyesi ve geçişler uygulandı.
+
+Uygulama simgesi: yerleşik imagegen aracıyla üretildi; kullanıcı ilk görseli seçti.
+İstem: iki zırhlı atlı savaşçının kılıçlarının çarpışması, altın kıvılcımlar, solda mavi sağda kırmızı, karanlık ortaçağ savaş alanı, yazısız kare uygulama simgesi.

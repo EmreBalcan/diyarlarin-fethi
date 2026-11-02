@@ -1,0 +1,36 @@
+# Dependencies and build output
+node_modules/
+dist/
+*.log
+
+# Local/agent metadata — never publish
+.openai/
+**/.openai/
+.codex/
+**/.codex/
+.agents/
+**/.agents/
+
+# Generated Android files and local credentials
+android/.gradle/
+android/build/
+android/app/build/
+android/app/src/main/assets/public/
+android/local.properties
+*.jks
+*.keystore
+
+# Development-only source media (the optimized WebP assets are tracked)
+audio-sources/
+*.png
+!public/app-icon.png
+!docs/**/*.png
+sprite-atlases/*.png
+__pycache__/
+*.pyc
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

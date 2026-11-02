@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Diyarların Fethi</string>
+    <string name="title_activity_main">Diyarların Fethi</string>
+    <string name="package_name">com.emre.ormansavaslari</string>
+    <string name="custom_url_scheme">com.emre.ormansavaslari</string>
+</resources>
