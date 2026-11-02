@@ -1,3 +1,5 @@
+export const RESOURCE_RESPAWN_MS=30*60*1000;
+
 export const RESOURCE_SITES=[
  ['Kuzey Demir Madeni','mine','snow',245,225,.34,90],['Buzul Ocağı','mine','snow',720,210,.43,115],['Akçam Avlağı','farm','snow',1280,220,.24,120],
  ['Çamlık Tarlası','farm','forest',255,380,.14,115],['Yeşil Vadi Çiftliği','farm','forest',555,365,.19,140],['Eski Taş Ocağı','mine','forest',835,385,.25,100],['Kereste Kampı','depot','forest',1110,370,.30,105],['Kervan Ambarı','depot','forest',1400,380,.39,125],

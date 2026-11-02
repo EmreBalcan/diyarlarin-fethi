@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {RESOURCE_SITES,totalTroops,expeditionCost,travelLosses,gatheringReward,ambushEncounter,applyTravelLosses,visibleWorkerCount} from './expedition-logic.js';
+import {RESOURCE_SITES,RESOURCE_RESPAWN_MS,totalTroops,expeditionCost,travelLosses,gatheringReward,ambushEncounter,applyTravelLosses,visibleWorkerCount} from './expedition-logic.js';
 
 test('18 distinct reusable sites include three riskier gold fields',()=>{
   assert.equal(RESOURCE_SITES.length,18);
@@ -15,6 +15,10 @@ test('food cost grows with dispatched soldiers, but ambush risk stays tied to si
   assert.ok(expeditionCost(site,large)>expeditionCost(site,small));
   assert.equal(site.risk,RESOURCE_SITES[0].risk);
   assert.ok(totalTroops(large)>totalTroops(small));
+});
+
+test('resource sites refresh after thirty minutes',()=>{
+  assert.equal(RESOURCE_RESPAWN_MS,30*60*1000);
 });
 test('travel losses remain bounded and resources follow the site type',()=>{
   const roster={archer:4,infantry:5,cavalry:3};

@@ -54,6 +54,14 @@ test('battle rewards finance upgrades while insufficient resources reject an act
   assert.equal(reward.city.gold,reward.gold);
 });
 
+test('winning an expedition ambush grants a separate battle reward',()=>{
+  const start=makeCity({gold:0,food:0,ore:0});
+  const reward=battleReward(start,2,'army');
+  assert.ok(reward.gold>0&&reward.ore>0&&reward.food>0);
+  assert.equal(reward.city.gold,reward.gold);
+  assert.equal(reward.city.ore,reward.ore);
+});
+
 test('enemy level changes tactics and high levels include coordinated manoeuvres',()=>{
   assert.equal(enemyLevel(0,'army'),1);
   assert.equal(enemyLevel(0,'city'),2);
