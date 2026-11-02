@@ -2,14 +2,6 @@
 
 Türkçe, gerçek zamanlı taktik savaşlar ile şehir ve kaynak yönetimini birleştiren mobil strateji oyunu. Ordunu kur, birliklerini savaş alanında konumlandır, şehirleri ele geçir ve değişen dünyada hâkimiyetini koru.
 
-[🎮 Canlı oyna](https://diyarlarin-fethi-emre-oyun.famouschick13.chatgpt.site/) · [📱 Android APK indir](https://diyarlarin-fethi-emre-oyun.famouschick13.chatgpt.site/download/)
-
-## APK indirme
-
-Telefonunuzun kamerasıyla QR kodu okutun veya yukarıdaki **Android APK indir** bağlantısını açın.
-
-![APK indirme QR kodu](docs/qr-apk.png)
-
 ## Oyundan görüntüler
 
 | Dünya haritası | Şehir ve karargâh |
@@ -52,3 +44,11 @@ npm run apk
 APK çıktısı: `android/app/build/outputs/apk/debug/app-debug.apk`
 
 Ses ve görsel kaynaklarına ilişkin açıklamalar [ASSETS.md](ASSETS.md) ve [public/credits.txt](public/credits.txt) dosyalarında yer alır.
+
+## Oyna ve indir
+
+[🎮 Canlı oyna](https://diyarlarin-fethi-emre-oyun.famouschick13.chatgpt.site/) · [📱 Android APK indir](https://diyarlarin-fethi-emre-oyun.famouschick13.chatgpt.site/download/)
+
+Telefonunuzun kamerasıyla QR kodu okutarak APK indirme sayfasını açabilirsiniz.
+
+<img src="docs/qr-apk.png" alt="APK indirme QR kodu" width="180">
