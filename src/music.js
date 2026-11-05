@@ -1,6 +1,6 @@
 export const MUSIC_TRACKS = {
-  army: '/audio/music-army.mp3', city: '/audio/music-city.mp3',
-  home: '/audio/music-home.mp3', map: '/audio/music-map.mp3',
+  army: './audio/music-army.mp3', city: './audio/music-city.mp3',
+  home: './audio/music-home.mp3', map: './audio/music-map.mp3',
 };
 
 // Two preloaded players per song overlap at the loop seam. Screen changes

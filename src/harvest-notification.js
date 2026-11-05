@@ -24,7 +24,7 @@ function clearBrowserSchedule() {
 function showBrowserHarvestNotification() {
   new Notification('Hasat hazır!', {
     body: 'Diyarların Fethi’nde toplanabilir hasadın seni bekliyor.',
-    icon: '/app-icon.png',
+    icon: './app-icon.png',
   });
 }
 

@@ -47,8 +47,8 @@ Ses ve görsel kaynaklarına ilişkin açıklamalar [ASSETS.md](ASSETS.md) ve [p
 
 ## Oyna ve indir
 
-[🎮 Canlı oyna](https://diyarlarin-fethi-emre-oyun.famouschick13.chatgpt.site/) · [📱 Android APK indir](https://diyarlarin-fethi-emre-oyun.famouschick13.chatgpt.site/download/)
+[🎮 Canlı oyna](https://emrebalcan.github.io/diyarlarin-fethi/) · [📱 Android APK indir](https://github.com/EmreBalcan/diyarlarin-fethi/releases/latest/download/DiyarlarinFethi.apk)
 
-Telefonunuzun kamerasıyla QR kodu okutarak APK indirme sayfasını açabilirsiniz.
+Telefonunuzun kamerasıyla QR kodu okutarak APK’yı doğrudan indirebilirsiniz.
 
 <img src="docs/qr-apk.png" alt="APK indirme QR kodu" width="180">
