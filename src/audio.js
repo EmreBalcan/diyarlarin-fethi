@@ -1,15 +1,15 @@
 import {MusicDirector} from './music.js';
 
 const FILES = {
-  bow: './audio/bow.wav', whoosh: './audio/arrow-whoosh.wav',
-  sword1: './audio/sword-clash-1.ogg', sword2: './audio/sword-clash-2.ogg', sword3: './audio/sword-clash-3.ogg',
-  gallop: './audio/horse-gallop.mp3', neigh: './audio/horse-neigh.mp3',
-  stone: './audio/tower-stone.ogg',
-  forest: './audio/forest-ambience.mp3', river: './audio/river-stream.ogg', waterfall: './audio/river-waterfall.ogg', wind: './audio/wind-ambience.mp3',
-  sand: './audio/sand-steps.mp3',
-  cityInfantry: './audio/city-infantry.ogg', cityBarracks: './audio/city-barracks.ogg',
-  cityForge: './audio/city-forge.ogg', cityGranary: './audio/city-granary.ogg',
-  cityHarvest: './audio/city-harvest.ogg', cityError: './audio/city-error.ogg', cityPanel: './audio/city-panel.ogg',
+  bow: '/audio/bow.wav', whoosh: '/audio/arrow-whoosh.wav',
+  sword1: '/audio/sword-clash-1.ogg', sword2: '/audio/sword-clash-2.ogg', sword3: '/audio/sword-clash-3.ogg',
+  gallop: '/audio/horse-gallop.mp3', neigh: '/audio/horse-neigh.mp3',
+  stone: '/audio/tower-stone.ogg',
+  forest: '/audio/forest-ambience.mp3', river: '/audio/river-stream.ogg', waterfall: '/audio/river-waterfall.ogg', wind: '/audio/wind-ambience.mp3',
+  sand: '/audio/sand-steps.mp3',
+  cityInfantry: '/audio/city-infantry.ogg', cityBarracks: '/audio/city-barracks.ogg',
+  cityForge: '/audio/city-forge.ogg', cityGranary: '/audio/city-granary.ogg',
+  cityHarvest: '/audio/city-harvest.ogg', cityError: '/audio/city-error.ogg', cityPanel: '/audio/city-panel.ogg',
 };
 
 export class BattleAudio {
